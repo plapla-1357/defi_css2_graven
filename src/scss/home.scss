@@ -1,0 +1,26 @@
+$bleu-vert : #00bfba;
+$bleu : #0c9cbe;
+$realy-blue : #3874ff;
+$violet : #ff65ff;
+
+#home{
+  // background-color: $violet; 
+  margin : 0;
+  padding: 0;
+
+  header{
+    background-color: $bleu-vert;
+    display : flex;
+    padding-bottom: 10px;
+  }
+
+  ul{
+    display: flex;
+    list-style-type: none;
+    li{
+      text-decoration: none;
+      height : 30px;width: 100px;
+      background-color: $bleu;
+    }
+  }
+}

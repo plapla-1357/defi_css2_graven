@@ -1,0 +1,23 @@
+#home {
+  margin: 0;
+  padding: 0;
+}
+
+#home header {
+  background-color: #00bfba;
+  display: flex;
+  padding-bottom: 10px;
+}
+
+#home ul {
+  display: flex;
+  list-style-type: none;
+}
+
+#home ul li {
+  text-decoration: none;
+  height: 30px;
+  width: 100px;
+  background-color: #0c9cbe;
+}
+/*# sourceMappingURL=home.css.map */

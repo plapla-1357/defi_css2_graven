@@ -9,7 +9,11 @@
 
 		<!-- Custom-Files -->
 		<link href="css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="src/css/main.css">
+		<link rel="stylesheet" href="src/css/home.css">
 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+ 		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
 	</head>
 
 	<body>
@@ -17,44 +21,41 @@
 		<div id="home">
 			<!-- haut de page -->
 			<header>
-				<div>
+				<div id = "logo">
 					<!-- numero de telephone -->
 					<p><span class="fa fa-volume-control-phone"></span>+331 20 20 20 20</p>
 					
 					<!-- logo -->
 					<h1><a href="index.html">Gravizen<img src="images/logo.png" alt=" "></a></h1>
 				</div>
+				
+				<div id = "nav">
+					<nav>
+						<label for="drop">Menu</label>
+						<input type="checkbox" id="drop" />
+						<ul>
+							<li><a href="index.html">Accueil</a></li>
+							<li><a href="#about">A Propos</a></li>
+							<li><a href="#services">Services</a></li>
+							<li>
+								<!-- Menu deroulant -->
+								<label for="drop-2">Application <span class="fa fa-angle-down"
+										aria-hidden="true"></span>
+								</label>
+								<a href="#">Application <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+								<input type="checkbox" id="drop-2" />
+								<ul>
+									<li><a href="#application">Télécharger l'appli</a></li>
+									<li><a href="#appointment">Réserver en ligne</a></li>
+								</ul>
+							</li>
+							<li><a href="#doctors">Equipe</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
 			</header>
-			<!-- haut de page -->
-			<!-- menu de navigation -->
-			<div>
-				<nav>
-					<label for="drop">Menu</label>
-					<input type="checkbox" id="drop" />
-					<ul>
-						<li><a href="index.html">Accueil</a></li>
-						<li><a href="#about">A Propos</a></li>
-						<li><a href="#services">Services</a></li>
-						<li>
-							<!-- Menu deroulant -->
-							<label for="drop-2">Application <span class="fa fa-angle-down"
-									aria-hidden="true"></span>
-							</label>
-							<a href="#">Application <span class="fa fa-angle-down" aria-hidden="true"></span></a>
-							<input type="checkbox" id="drop-2" />
-							<ul>
-								<li><a href="#application">Télécharger l'appli</a></li>
-								<li><a href="#appointment">Réserver en ligne</a></li>
-							</ul>
-						</li>
-						<li><a href="#doctors">Equipe</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</nav>
-			</div>
-			<!-- //menu de navigation -->
 
-			<!-- bannière d'accueil -->
 			<div>
 				<div>
 					<img src="images/banner.png" alt="" />
