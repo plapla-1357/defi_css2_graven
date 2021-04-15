@@ -1,0 +1,18 @@
+#services {
+  margin: 20px;
+}
+
+#services h2 {
+  margin-bottom: 30px;
+}
+
+#services h2::after {
+  content: "";
+  display: flex;
+  flex-direction: column;
+  height: 8px;
+  width: 70px;
+  background-color: #ff65ff;
+  position: absolute;
+}
+/*# sourceMappingURL=service.css.map */

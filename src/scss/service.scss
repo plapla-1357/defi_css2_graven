@@ -1,0 +1,22 @@
+$bleu-vert : #00bfba;
+$bleu : #0c9cbe;
+$realy-blue : #3874ff;
+$violet : #ff65ff;
+
+#services{
+  margin : 20px;
+
+  h2{
+    &::after{
+      content : "";
+      display : flex;
+      flex-direction: column;
+      height : 8px;
+      width : 70px;
+      
+      background-color: $violet;
+      position:absolute;
+    }
+    margin-bottom: 30px;
+  }
+}

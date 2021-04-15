@@ -1,0 +1,34 @@
+$bleu-vert : #00bfba;
+$bleu : #0c9cbe;
+$realy-blue : #3874ff;
+$violet : #ff65ff;
+
+#infos{
+  .cards{
+    display : flex;
+    justify-content: space-evenly;
+    margin : 40px;
+
+    .card{
+      padding : 10px;
+      border-radius: 20px;
+      border :2px solid $bleu;
+
+      span{
+        font-size: 30px;
+      }
+
+      &:nth-child(1){
+        span{
+          color : $bleu-vert;
+        }
+      }
+
+      transition : box-shadow 0.4s , background 0.4s;
+      &:hover{
+        box-shadow: 0 10px 10px #586575b6;
+        background-color: #a1bcfc2f;
+      }
+    }
+  }
+}

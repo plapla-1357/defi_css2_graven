@@ -10,17 +10,97 @@ $violet : #ff65ff;
 
   header{
     background-color: $bleu-vert;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px;
     display : flex;
-    padding-bottom: 10px;
-  }
+    #logo{
+      margin: 10px;
+      h1{
+        padding : 10px;
+      }
+      img{
+        vertical-align: middle;
+      }
+      .tel{
+        background-color: $bleu;
+        text-align: center;
+        border-radius: 20px;
+        padding-top: 5px;
+        padding-bottom: 6px;
+        transition: background-color 0.4s ;
+        &:hover{
+          background-color: $realy-blue;
+        }
+      }
+    }
+    ul{
+      display: flex;
+      list-style-type: none;
+      // position: absolute;
+      
+      
+      li{
 
-  ul{
-    display: flex;
-    list-style-type: none;
-    li{
-      text-decoration: none;
-      height : 30px;width: 100px;
+        text-align: center;
+        background-color: $bleu;
+        height : 50px;
+        a{
+          padding-left: 10px;
+          padding-right: 10px;
+          border-radius: 20px;
+          &:hover{
+            background-color: $realy-blue;
+          }
+        }
+        &#menu_deroulant{
+          li{
+            display : none;
+            background-color: #ff65ff;
+          }
+          .active{
+            li{
+              display : block;
+            }
+          }
+        }
+      }
+    }
+  }
+  #homepage{
+    display : flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    img{
+      width : 600px;
+    }
+
+    h6{
+      margin: 20px;
+      text-align: center;
+      border-radius: 20px;
+      border : 3px solid $realy-blue;
+      width : 60%;
       background-color: $bleu;
+    }
+
+    h2{
+      text-align: center;
+      padding : 30px;
+    }
+    p{
+      margin : 20px;
+    }
+    a{
+      border-radius: 20px;
+      background-color: $bleu;
+      padding : 10px;
+      margin-top: 30px;
+      transition : background-color 0.4s, box-shadow 0.4s;
+
+      &:hover{
+        background-color: $realy-blue;
+        box-shadow : 0 5px 10px #586575b6;
+      }
     }
   }
 }

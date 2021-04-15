@@ -8,10 +8,35 @@ $violet : #ff65ff;
   scroll-behavior: smooth;
   margin: 0px;
   padding: 0px;
+  
 }
 
 a{
   text-decoration: none;
   color : black;
   font-family: "FontAwesome";
+  font-family: 'Nunito', sans-serif;
+}
+
+p{
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+}
+
+h1{
+  font-size: 80px;
+}
+
+h2{
+  font-size: 70px;
+  font-family: 'Nunito', sans-serif;
+}
+
+h3{
+  font-size: 50px;
+  font-family: 'Nunito', sans-serif;
+}
+
+h6{
+  font-size: 30px;
 }

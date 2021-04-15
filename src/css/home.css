@@ -5,19 +5,104 @@
 
 #home header {
   background-color: #00bfba;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   display: flex;
-  padding-bottom: 10px;
 }
 
-#home ul {
+#home header #logo {
+  margin: 10px;
+}
+
+#home header #logo h1 {
+  padding: 10px;
+}
+
+#home header #logo img {
+  vertical-align: middle;
+}
+
+#home header #logo .tel {
+  background-color: #0c9cbe;
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  transition: background-color 0.4s;
+}
+
+#home header #logo .tel:hover {
+  background-color: #3874ff;
+}
+
+#home header ul {
   display: flex;
   list-style-type: none;
 }
 
-#home ul li {
-  text-decoration: none;
-  height: 30px;
-  width: 100px;
+#home header ul li {
+  text-align: center;
   background-color: #0c9cbe;
+  height: 50px;
+}
+
+#home header ul li a {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+}
+
+#home header ul li a:hover {
+  background-color: #3874ff;
+}
+
+#home header ul li#menu_deroulant li {
+  display: none;
+  background-color: #ff65ff;
+}
+
+#home header ul li#menu_deroulant .active li {
+  display: block;
+}
+
+#home #homepage {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: center;
+}
+
+#home #homepage img {
+  width: 600px;
+}
+
+#home #homepage h6 {
+  margin: 20px;
+  text-align: center;
+  border-radius: 20px;
+  border: 3px solid #3874ff;
+  width: 60%;
+  background-color: #0c9cbe;
+}
+
+#home #homepage h2 {
+  text-align: center;
+  padding: 30px;
+}
+
+#home #homepage p {
+  margin: 20px;
+}
+
+#home #homepage a {
+  border-radius: 20px;
+  background-color: #0c9cbe;
+  padding: 10px;
+  margin-top: 30px;
+  transition: background-color 0.4s, box-shadow 0.4s;
+}
+
+#home #homepage a:hover {
+  background-color: #3874ff;
+  box-shadow: 0 5px 10px #586575b6;
 }
 /*# sourceMappingURL=home.css.map */
