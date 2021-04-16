@@ -5,18 +5,89 @@ $violet : #ff65ff;
 
 #services{
   margin : 20px;
-
-  h2{
-    &::after{
-      content : "";
-      display : flex;
-      flex-direction: column;
-      height : 8px;
-      width : 70px;
-      
-      background-color: $violet;
-      position:absolute;
+  h3{
+    text-align: center;
+    margin-top: 30px;
+  }
+  .cards{
+    flex-wrap: wrap;
+    justify-content: center;
+    .card{
+      margin: 10px;
+      width : 400px;
+      text-align: center;
+      span{
+        margin-bottom: 10px;
+      }
+      &:nth-child(1){
+        span{
+          color : $bleu-vert;
+        }
+      }
+      &:nth-child(2){
+        span{
+          color : $bleu;
+        }
+      }
+      &:nth-child(3){
+        span{
+          color : $realy-blue;
+          
+        }
+      }
+      &:nth-child(4){
+        span{
+          color : $violet;
+        }
+      }
     }
-    margin-bottom: 30px;
+  }
+
+}
+
+#about {
+  display : flex;
+  justify-content:center ;
+  .about{
+    text-align: center;
+    margin : 30px;
+    display : flex;
+    flex-direction: column;
+    align-items:center;
+    //! border : 3px solid $realy-blue;
+    border-radius: 20px;
+    width : 600px;
+
+    .text_card{
+      text-align: justify;
+      width : 600px;
+    
+      margin : 20px;
+      p{
+        margin : 20px;
+      }
+    }
+    .cards{
+      .card{
+        margin : 20px;
+        margin-top: 0;
+        padding: 20px;
+        &:nth-child(1){
+          span{
+            color : $bleu-vert;
+          }
+        }
+        &:nth-child(2){
+          span{
+            color : $realy-blue;
+          }
+        }
+        &:nth-child(3){
+          span{
+            color : $violet;
+          }
+        }
+      }
+    }
   }
 }

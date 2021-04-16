@@ -40,3 +40,19 @@ h3{
 h6{
   font-size: 30px;
 }
+
+.cards{
+  display : flex;
+  justify-content: space-evenly;
+  
+
+  .card{
+    padding : 10px;
+    border-radius: 20px;
+    border :2px solid $bleu;
+
+    span{
+      font-size: 30px;
+    }
+  }
+}

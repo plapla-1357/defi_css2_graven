@@ -4,20 +4,10 @@ $realy-blue : #3874ff;
 $violet : #ff65ff;
 
 #infos{
+
   .cards{
-    display : flex;
-    justify-content: space-evenly;
-    margin : 40px;
-
     .card{
-      padding : 10px;
-      border-radius: 20px;
-      border :2px solid $bleu;
-
-      span{
-        font-size: 30px;
-      }
-
+      margin : 40px;
       &:nth-child(1){
         span{
           color : $bleu-vert;

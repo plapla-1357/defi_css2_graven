@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="src/css/home.css">
 		<link rel="stylesheet" href="src/css/info.css">
 		<link rel="stylesheet" href="src/css/service.css">
+		<link rel="stylesheet" href="src/css/form.css">
 
 		<script src="https://kit.fontawesome.com/ea4c9c78f3.js" crossorigin="anonymous"></script>
 		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
@@ -129,29 +130,29 @@
 					<h2>Que proposons nous ?</h2>
 					<h3>Nos soins</h3>
 				</div>
-				<div>
-					<div>
+				<div class = "cards">
+					<div class = "card">
 						<div>
 							<span class="fa fa-stethoscope"></span>
 							<h4>Généraliste</h4>
 							<p>Une simple révision, un besoin immédiat sur une demande non specifique</p>
 						</div>
 					</div>
-					<div>
+					<div class = "card">
 						<div>
 							<span class="fa fa-user-md"></span>
 							<h4>Dermatologie</h4>
 							<p>Etude de la peau, des cheveux, des poils et des ongles ainsi qu'à la prévention, au diagnostic et au traitement des maladies qui les touchent. </p>
 						</div>
 					</div>
-					<div>
+					<div class = "card">
 						<div>
 							<span class="fa fa-wheelchair"></span>
 							<h4>Cardialogie</h4>
 							<p>Malformations congénitales, troubles du rythme et de la conduction, pathologies des valves, insuffisance cardiaque, cardiomyopathies</p>
 						</div>
 					</div>
-					<div>
+					<div class = "card">
 						<div>
 							<span class="fa fa-plus-square"></span>
 							<h4>Urgence Covid</h4>
@@ -164,23 +165,23 @@
 		<!-- //Soins -->
 
 		<!-- A Propos -->
-		<section id="about">
-			<div>
+		<section id = "about">
+			<div class="about">
 				<h3>A <span> propos</span> </h3>
-				<div>
+				<div class = "text_card">
 					<p>Depuis plus de 3 ans, notre application propose differents services en temp reel pour suivre les pathologies de nos patients. Dans un cadre professionnel et humain</p>
 					<p>Une simple consultation à distance, une question, un soin spécifique, nous sommes la pour répondre à vos besoins</p>
 				</div>
-				<div>
-					<div>
+				<div class = "cards">
+					<div class = "card">
 						<span class="fa fa-h-square"></span>
 						<h4>Humain</h4>
 					</div>
-					<div>
+					<div class = "card">
 						<span class="fa fa-ambulance"></span>
 						<h4>Rapide</h4>
 					</div>
-					<div>
+					<div class = "card">
 						<span class="fa fa-medkit"></span>
 						<h4>Précis</h4>
 					</div>
@@ -191,21 +192,19 @@
 
 		<!-- Formulaire rendez-vous -->
 		<section id="appointment">
+			<div class = "form">
+				<h2>Prendre un rendez-vous</h2>
+				<form action="#" method="post">
+					<input placeholder="Nom de famille"name="name" type="text" required="">
+					<input placeholder="Adresse email" name="email" type="email" required="">
+					<input placeholder="Numéro de contact" name="number" type="text" required="">
+					<input name="date" type="date" required="">
+					<input placeholder="Entrer l'horaire souhaité" name="time" type="text" required="">
+					<button>Soumettre </button>
+				</form>
+			</div>
 			<div>
-				<div>
-					<h3>Prendre un rendez-vous</h3>
-					<form action="#" method="post">
-						<input placeholder="Nom de famille"name="name" type="text" required="">
-						<input placeholder="Adresse email" name="email" type="email" required="">
-						<input placeholder="Numéro de contact" name="number" type="text" required="">
-						<input name="date" type="date" required="">
-						<input placeholder="Entrer l'horaire souhaité" name="time" type="text" required="">
-						<button>Soumettre </button>
-					</form>
-				</div>
-				<div>
-					<img src="images/app1.png" alt="">
-				</div>
+				<img src="images/app1.png" alt="">
 			</div>
 		</section>
 		<!-- //Formulaire rendez-vous  -->

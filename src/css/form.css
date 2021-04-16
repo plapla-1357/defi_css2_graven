@@ -1,0 +1,65 @@
+#appointment {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#appointment img {
+  width: 600px;
+}
+
+#appointment .form {
+  margin: 50px;
+  text-align: center;
+  border-radius: 20px;
+  border: 3px solid #3874ff;
+  background-color: #3874ff3f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#appointment .form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+}
+
+#appointment .form form input {
+  text-align: center;
+  width: 100%;
+  background-color: #00e6de42;
+  border-radius: 20px;
+  border-color: #3874ff;
+  border-style: solid;
+  padding: 10px;
+  margin: 5px;
+  transition: background-color 0.4s ,  box-shadow 0.4s;
+}
+
+#appointment .form form input:focus {
+  background-color: #00d8d1b2;
+  box-shadow: 0 5px 10px #586575b6;
+  outline: none;
+}
+
+#appointment .form form input:hover {
+  box-shadow: 0 5px 10px #586575b6;
+}
+
+#appointment .form form button {
+  width: 100px;
+  background-color: #0c9cbe;
+  border-radius: 20px;
+  border-color: #3874ff;
+  border-style: solid;
+  padding: 10px;
+  margin: 5px;
+  transition: background-color 0.4s ,  box-shadow 0.4s;
+}
+
+#appointment .form form button:hover {
+  background-color: #3874ff;
+  box-shadow: 0 5px 10px #586575b6;
+}
+/*# sourceMappingURL=form.css.map */

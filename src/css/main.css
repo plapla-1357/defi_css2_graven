@@ -33,4 +33,19 @@ h3 {
 h6 {
   font-size: 30px;
 }
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cards .card {
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid #0c9cbe;
+}
+
+.cards .card span {
+  font-size: 30px;
+}
 /*# sourceMappingURL=main.css.map */

@@ -1,18 +1,6 @@
-#infos .cards {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 40px;
-}
-
 #infos .cards .card {
-  padding: 10px;
-  border-radius: 20px;
-  border: 2px solid #0c9cbe;
+  margin: 40px;
   transition: box-shadow 0.4s , background 0.4s;
-}
-
-#infos .cards .card span {
-  font-size: 30px;
 }
 
 #infos .cards .card:nth-child(1) span {
