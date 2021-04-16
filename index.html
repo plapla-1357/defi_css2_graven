@@ -14,6 +14,8 @@
 		<link rel="stylesheet" href="src/css/info.css">
 		<link rel="stylesheet" href="src/css/service.css">
 		<link rel="stylesheet" href="src/css/form.css">
+		<link rel="stylesheet" href="src/css/app.css">
+		<link rel="stylesheet" href="src/css/doctors.css">
 
 		<script src="https://kit.fontawesome.com/ea4c9c78f3.js" crossorigin="anonymous"></script>
 		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
@@ -22,8 +24,6 @@
 		<!--! font -->
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-
-		<script src = "src/js/nav.js"></script>
 
 	</head>
 
@@ -212,15 +212,15 @@
 		<!-- Télécharger l'application -->
 		<section id="application">
 			<div>
-				<div>
-					<img src="images/mid.png" alt=""/>
-				</div>
-				<div>
-					<p>Playstore - Applestore</p>
-					<h3>Télécharger l'application mobile</h3>
-					<p>Consultation par visio, suivi de pathologie, prise de rendez-vous et prise en charge urgente en une seule application</p>
-					<a href="#playstore">Playstore</a>
-					<a href="#applestore">Apple store</a>
+				<img src="images/mid.png" alt=""/>
+			</div>
+			<div id = "text_app">
+				<p>Playstore - Applestore</p>
+				<h2>Télécharger l'application mobile</h2>
+				<p>Consultation par visio, suivi de pathologie, prise de rendez-vous et prise en charge urgente en une seule application</p>
+				<div class="store">
+					<a href="#playstore"><img src="images/playstore.png" alt="logo Playstore">Playstore  </a>
+					<a href="#applestore"><img src="images/apple.png" alt="logo apple">App store</a>
 				</div>
 			</div>
 		</section>
@@ -230,25 +230,25 @@
 		<section id="doctors">
 			<div>
 				<div>
-					<h3>Nos specialistes</h3>
-					<h6>Professionnels</h6>
+					<h2>Nos specialistes</h2>
+					<h6>Professionnels :</h6>
 				</div>
-				<div>
-					<div>
+				<div class = "cards">
+					<div class ="card">
 						<img src="images/t3.png" alt="">
 						<div>
 							<h4>Teva bristner</h4>
 							<h6>Généraliste</h6>
 						</div>
 					</div>
-					<div>
+					<div class = "card">
 						<img src="images/t1.png" alt="">
 						<div>
 							<h4>Elisa dupont</h4>
 							<h6>Cardiologue</h6>
 						</div>
 					</div>
-					<div>
+					<div class = "card">
 						<img src="images/t2.png"alt="">
 						<div>
 							<h4>Rinto dabesa</h4>
@@ -424,7 +424,8 @@
 		<!-- //Pied de page -->
 
 		<!-- Copyright -->
-		<p> © 2021 Gravizen. Tout droit réservés | Par Pseudo </p>
+		<p> © 2021 Gravizen. Tout droit réservés | Par Pseudo </p> <br>
+		<p> icon de freepik, Swifticons from flaticon</p>
 		
 		<a href="#home">
 			<span aria-hidden="true"></span>

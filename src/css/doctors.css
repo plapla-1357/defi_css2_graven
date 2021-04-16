@@ -1,0 +1,22 @@
+#doctors h2 {
+  text-align: center;
+}
+
+#doctors .cards {
+  display: flex;
+}
+
+#doctors .cards .card {
+  background-color: #62719413;
+  transition: box-shadow 0.4s , background 0.4s;
+}
+
+#doctors .cards .card img {
+  height: 300px;
+}
+
+#doctors .cards .card:hover {
+  box-shadow: 10px 10px 10px #ccc;
+  background-color: #62719434;
+}
+/*# sourceMappingURL=doctors.css.map */

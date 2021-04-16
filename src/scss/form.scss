@@ -5,27 +5,30 @@ $violet : #ff65ff;
 #appointment{
   display : flex;
   flex-direction:row-reverse;
+  justify-content: start;
+  height : 100vh;
   img{
     width : 600px;
   }
 
   .form{
     margin: 50px;
+    margin-top: 0;
     text-align: center;
-    border-radius: 20px;
-    border : 3px solid $realy-blue;
-    background-color: #3874ff3f;
     display : flex;
     flex-direction: column;
     align-items: center;
     form{
+      border-radius: 20px;
+      border : 3px solid $realy-blue;
+      background-color: #3874ff3f;
       display : flex;
       flex-direction: column;
       align-items: center;
-      width : 250px;
+      width : 300px;
       input{
         text-align: center;
-        width : 100%;
+        width : 80%;
         background-color: #00e6de42;
         border-radius: 20px;
         border-color: $realy-blue;

@@ -1,0 +1,40 @@
+#application {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #1e1235;
+  color: white;
+  border-radius: 100px;
+  margin: 30px;
+}
+
+#application img {
+  height: 75vh;
+  padding: 20px;
+}
+
+#application #text_app {
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#application #text_app h2 {
+  padding: 20px;
+}
+
+#application #text_app a {
+  color: white;
+  border-radius: 20px;
+  background-color: #0e091a;
+  padding: 10px;
+  margin: 20px;
+}
+
+#application #text_app a img {
+  height: 20px;
+  vertical-align: middle;
+  margin: -10px;
+}
+/*# sourceMappingURL=app.css.map */

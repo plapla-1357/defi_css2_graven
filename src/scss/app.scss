@@ -1,0 +1,39 @@
+#application{
+  display : flex;
+  flex-direction: row-reverse;
+  background-color: #1e1235;
+  color : white;
+  // border-top-left-radius: 100px;
+  // border-top-right-radius: 100px;
+  border-radius: 100px;
+  margin : 30px;
+ 
+ 
+  img{
+    height : 75vh;
+    padding : 20px;
+  }
+
+  #text_app{
+    text-align: center;
+    padding : 10px;
+    display : flex;
+    flex-direction: column;
+    justify-content: space-around;
+    h2{
+      padding : 20px;
+    }
+    a{
+      color : white;
+      border-radius: 20px;
+      background-color: #0e091a;
+      padding : 10px;
+      margin : 20px;
+      img{
+        height: 20px;
+        vertical-align: middle;
+        margin : -10px;
+      }
+    }
+  }
+}
