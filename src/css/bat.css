@@ -1,0 +1,36 @@
+#contact {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  overflow: hidden;
+}
+
+#contact form .infos {
+  width: 350px;
+}
+
+#contact form .infos input {
+  width: 250px;
+}
+
+#contact form textarea {
+  background-color: #00e6de42;
+  height: 300px;
+  width: 300px;
+  font-family: 'Nunito', sans-serif;
+}
+
+#contact form button .icon {
+  color: white;
+  font-size: 25px;
+  vertical-align: middle;
+}
+/*# sourceMappingURL=bat.css.map */

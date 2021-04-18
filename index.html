@@ -16,6 +16,8 @@
 		<link rel="stylesheet" href="src/css/form.css">
 		<link rel="stylesheet" href="src/css/app.css">
 		<link rel="stylesheet" href="src/css/doctors.css">
+		<link rel="stylesheet" href="src/css/news.css">
+		<link rel="stylesheet" href="src/css/bat.css">
 
 		<script src="https://kit.fontawesome.com/ea4c9c78f3.js" crossorigin="anonymous"></script>
 		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
@@ -37,7 +39,7 @@
 					<p class = "tel"><span class="fa fa-volume-control-phone"></span>+331 20 20 20 20</p>
 					
 					<!-- logo -->
-					<h1><a href="index.html">Gravizen<img src="images/logo.png" alt=" "></a></h1>
+					<h1><a href="index.html">Gravizen<img src="src/images/logo.png" alt=" "></a></h1>
 				</div>
 				
 				<div id = "nav">
@@ -69,7 +71,7 @@
 
 			<div id = "homepage">
 				<div>
-					<img src="images/banner.png" alt="" />
+					<img src="src/images/banner.png" alt="" />
 				</div>
 				<div>
 					<h6>Bienvenue sur Gravizen</h6>
@@ -204,7 +206,7 @@
 				</form>
 			</div>
 			<div>
-				<img src="images/app1.png" alt="">
+				<img src="src/images/app1.png" alt="">
 			</div>
 		</section>
 		<!-- //Formulaire rendez-vous  -->
@@ -212,15 +214,15 @@
 		<!-- Télécharger l'application -->
 		<section id="application">
 			<div>
-				<img src="images/mid.png" alt=""/>
+				<img src="src/images/mid.png" alt=""/>
 			</div>
 			<div id = "text_app">
 				<p>Playstore - Applestore</p>
 				<h2>Télécharger l'application mobile</h2>
 				<p>Consultation par visio, suivi de pathologie, prise de rendez-vous et prise en charge urgente en une seule application</p>
 				<div class="store">
-					<a href="#playstore"><img src="images/playstore.png" alt="logo Playstore">Playstore  </a>
-					<a href="#applestore"><img src="images/apple.png" alt="logo apple">App store</a>
+					<a href="#playstore"><img src="src/images/playstore.png" alt="logo Playstore">Playstore  </a>
+					<a href="#applestore"><img src="src/images/apple.png" alt="logo apple">App store</a>
 				</div>
 			</div>
 		</section>
@@ -235,21 +237,21 @@
 				</div>
 				<div class = "cards">
 					<div class ="card">
-						<img src="images/t3.png" alt="">
+						<img src="src/images/t3.png" alt="">
 						<div>
 							<h4>Teva bristner</h4>
 							<h6>Généraliste</h6>
 						</div>
 					</div>
 					<div class = "card">
-						<img src="images/t1.png" alt="">
+						<img src="src/images/t1.png" alt="">
 						<div>
 							<h4>Elisa dupont</h4>
 							<h6>Cardiologue</h6>
 						</div>
 					</div>
 					<div class = "card">
-						<img src="images/t2.png"alt="">
+						<img src="src/images/t2.png"alt="">
 						<div>
 							<h4>Rinto dabesa</h4>
 							<h6>Dermatologue</h6>
@@ -263,44 +265,44 @@
 		<!-- Articles de blog -->
 		<section id="news">
 			<div>
-				<h3>Nouveautés</h3>
+				<h2>Nouveautés</h2>
 				<h6>Blog Post</h6>
 			</div>
-			<div>
+			<div class = "cards">
 				<!-- article 1 -->
-				<div>
+				<div class = "card">
 					<div>
 						<a href="#">
-							<img src="images/blog2.jpg" alt="image">
+							<img src="src/images/blog2.jpg" alt="image">
 						</a>
 					</div>
-					<div>
+					<div class = "text">
 						<span>Février 20, 2021 - blog</span>
 						<a href="#">TEST COVID A DOMICILE</a>
 						<p>Découvez comment éviter les files d'attentes avec le test PCR à domicile</p>
 					</div>
 				</div>
 				<!-- article 2 -->
-				<div>
+				<div class = "card">
 					<div>
 						<a href="#">
-							<img src="images/blog1.jpg" alt="image">
+							<img src="src/images/blog1.jpg" alt="image">
 						</a>
 					</div>
-					<div>
+					<div class = "text">
 						<span>Février 20, 2021 - blog</span>
 						<a href="#">L'APPLICATION VERSION 2.0</a>
 						<p>Découvrez les nouveautés de la nouvelle interface de l'appli</p>
 					</div>
 				</div>
 				<!-- article 3 -->
-				<div>
+				<div class = "card">
 					<div>
 						<a href="#">
-							<img src="images/blog3.png" alt="image">
+							<img src="src/images/blog3.png" alt="image">
 						</a>
 					</div>
-					<div>
+					<div class = "text">
 						<span>Février 20, 2021 - blog</span>
 						<a href="#">SUIVI INTELLIGENT</a>
 						<p>Des statistiques avancées sur comment nous rendons la prise de rendez-vous facile pour tous</p>
@@ -314,15 +316,17 @@
 		<section id="contact">
 			<div>
 				<h6>Une question ? un conseil ?</h6>
-				<h3>Contactez-nous</h3>
+				<h2>Contactez-nous</h2>
 			</div>
-			<form action="#" method="post">
-				<input type="text" name="name" placeholder="Entrer votre nom..." required="">
-				<input type="email" name="email" placeholder="Entrer votre email..." required="">
-				<input type="text" name="subject" placeholder="Entrer Le Sujet..." required="">
-				<input type="text" name="number" placeholder="Entrer votre numero de téléphone" required="">
+			<form action="#contact" method="post">
+				<div class="infos">
+					<input type="text" name="name" placeholder="Entrer votre nom..." required="">
+					<input type="email" name="email" placeholder="Entrer votre email..." required="">
+					<input type="text" name="subject" placeholder="Entrer Le Sujet..." required="">
+					<input type="text" name="number" placeholder="Entrer votre numero de téléphone" required="">
+				</div>
 				<textarea name="message" placeholder="Entrer votre message"></textarea>
-				<button type="submit">Envoyer</button>
+				<button type="submit">Envoyer <i class="fas fa-paper-plane icon"> </i></button>
 			</form>
 		</section>
 		<!-- //Contact -->
@@ -350,7 +354,7 @@
 				</p>
 				<div>
 					<div>
-						<img src="images/te1.jpg" alt=" "/>
+						<img src="src/images/te1.jpg" alt=" "/>
 					</div>
 					<div>
 						<h5>Valerie Dozo</h5>
@@ -367,7 +371,7 @@
 				<h2>
 					<a href="index.html">
 						Gravizen
-						<img src="images/logo.png" alt=" ">
+						<img src="src/images/logo.png" alt=" ">
 					</a>
 				</h2>
 				<p>

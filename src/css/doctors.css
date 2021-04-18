@@ -4,11 +4,13 @@
 
 #doctors .cards {
   display: flex;
+  flex-wrap: wrap;
 }
 
 #doctors .cards .card {
   background-color: #62719413;
   transition: box-shadow 0.4s , background 0.4s;
+  margin-bottom: 20px;
 }
 
 #doctors .cards .card img {

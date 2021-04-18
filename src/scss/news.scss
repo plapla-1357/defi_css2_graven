@@ -1,0 +1,48 @@
+$bleu-vert : #00bfba;
+$bleu : #0c9cbe;
+$realy-blue : #3874ff;
+$violet : #ff65ff;
+$bleu-marine : #1e1235;
+#news{
+  background-color: $bleu-vert;
+  border-radius: 20px;
+  background-image: url("../images/bg2.jpg");
+  background-size: contain;
+
+  h2{
+    text-align: center;
+    margin-top: 30px;
+  }
+  h6{
+    text-align: center;
+    color :$bleu-marine ;
+  }
+  .cards{
+    flex-wrap: wrap;
+    .card{
+      margin-bottom: 30px;
+      border : none;
+      background-color: #1e1235;
+      img{
+        width : 500px;
+        border-radius: 20px;
+      }
+      .text{
+        display : flex;
+        flex-direction: column;
+        color : white;
+        text-align: center;
+        width : 500px;
+        a{
+          transition : color 0.4s, text-shadow 0.4s;
+          color : #fbc8ff;
+          font-style: italic;
+          &:hover{
+            color : $violet;
+            text-shadow: 0 10px 10px #ffa0ff5d;
+          }
+        }
+      }
+    }
+  }
+}

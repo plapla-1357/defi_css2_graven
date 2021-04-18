@@ -1,0 +1,51 @@
+#news {
+  background-color: #00bfba;
+  border-radius: 20px;
+  background-image: url("../images/bg2.jpg");
+  background-size: contain;
+}
+
+#news h2 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#news h6 {
+  text-align: center;
+  color: #1e1235;
+}
+
+#news .cards {
+  flex-wrap: wrap;
+}
+
+#news .cards .card {
+  margin-bottom: 30px;
+  border: none;
+  background-color: #1e1235;
+}
+
+#news .cards .card img {
+  width: 500px;
+  border-radius: 20px;
+}
+
+#news .cards .card .text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  width: 500px;
+}
+
+#news .cards .card .text a {
+  transition: color 0.4s, text-shadow 0.4s;
+  color: #fbc8ff;
+  font-style: italic;
+}
+
+#news .cards .card .text a:hover {
+  color: #ff65ff;
+  text-shadow: 0 10px 10px #ffa0ff5d;
+}
+/*# sourceMappingURL=news.css.map */

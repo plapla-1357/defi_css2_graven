@@ -1,0 +1,41 @@
+//* le non du fichier devrais etre bas pour
+//* il représente tout le bas de la page
+
+$bleu-vert : #00bfba;
+$bleu : #0c9cbe;
+$realy-blue : #3874ff;
+$violet : #ff65ff;
+$bleu-marine : #1e1235;
+
+#contact{
+  margin-top: 30px;
+  display : flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  form{
+    display: flex;
+    flex-direction:row;
+    padding : 20px;
+    overflow: hidden;
+    .infos{
+      width : 350px;
+      input{
+        width : 250px;
+      }
+    }
+    textarea{
+      background-color: #00e6de42;
+      height : 300px;
+      width : 300px;
+      font-family: 'Nunito', sans-serif;
+    }
+    button{
+      .icon{
+        color : white;
+        font-size: 25px;
+        vertical-align: middle;
+      }
+    }
+  }
+}

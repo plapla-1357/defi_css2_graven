@@ -10,9 +10,12 @@ $bleu-marine : #1e1235;
   }
   .cards{
     display : flex;
+    flex-wrap: wrap;
+
     .card{
       background-color: #62719413;
       transition : box-shadow 0.4s , background 0.4s;
+      margin-bottom: 20px;
       img{
         height : 300px;
       }

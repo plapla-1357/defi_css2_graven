@@ -50,4 +50,53 @@ h6 {
 .cards .card span {
   font-size: 30px;
 }
+
+form {
+  border-radius: 20px;
+  border: 3px solid #3874ff;
+  background-color: #3874ff3f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+form input {
+  text-align: center;
+  width: 250px;
+  background-color: #00e6de42;
+  border-radius: 20px;
+  border-color: #3874ff;
+  border-style: solid;
+  padding: 10px;
+  margin: 5px;
+  transition: background-color 0.4s ,  box-shadow 0.4s;
+}
+
+form input:focus {
+  background-color: #00d8d1b2;
+  box-shadow: 0 5px 10px #586575b6;
+  outline: none;
+}
+
+form input:hover {
+  box-shadow: 0 5px 10px #586575b6;
+}
+
+form button {
+  color: white;
+  width: 130px;
+  background-color: #0c9cbe;
+  border-radius: 20px;
+  border-color: #3874ff;
+  border-style: solid;
+  padding: 10px;
+  margin: 5px;
+  transition: background-color 0.4s ,  box-shadow 0.4s;
+}
+
+form button:hover {
+  background-color: #3874ff;
+  box-shadow: 0 5px 10px #586575b6;
+}
 /*# sourceMappingURL=main.css.map */
